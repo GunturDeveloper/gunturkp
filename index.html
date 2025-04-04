@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guntur Putra</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/fill/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/bold/style.css">
+    
+    <link rel="stylesheet" href="./css/styles.css">
+    
+
+<style>
+    html {
+        scroll-behavior:smooth;
+    }
+    #bar {
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            }
+</style>
+    
+</head>
+
+<body class="font-bold flex flex-col min-h-screen relative">
+
+
+    <main id="home" class="p-8 dot-grid flex-grow flex justify-center">
+        
+    <div class="w-full max-w-lg md:max-w-xl lg:max-w-2xl">
+      
+ <h1  class="text-black relative rotate-pivot w-64 text-2xl shadow-spc bg-white p-2 border border-gray-800 font-bold text-center mx-auto my-4">
+            Guntur Putra
+        </h1>
+  <div class="hidden text-black relative rotate-pivot w-64 shadow-spc bg-white p-4 border border-gray-800 font-bold text-center mx-auto rounded-lg my-4">
+      <h1>Favorite song</h1>
+      <marquee>Bengawan Solo - Tony Merle/Jamie Aditya</marquee>
+            <p>00.00/03.16</p>
+            <button id="play" class="bg-white border border-gray-800 p-2 rounded-full w-full mt-4 shadow-spc">Play</button>
+            <button id="pause" class="bg-white border border-gray-800 p-2 rounded-full w-full mt-4 shadow-spc">Pause</button>
+            <button id="stop" class="bg-white border border-gray-800 p-2 rounded-full w-full mt-4 shadow-spc">Stop</button>
+        </div>
+        <div class="mt-16  rotate-6 bg-white border border-gray-800 w-full mx-auto p-4  shadow-spc">
+            <h2 class="text-2xl flex items-center"> 
+               <img class="h-8 w-8 mr-2" src="./img/smiley.png" alt="Person smile"> 
+               Introduction 
+            </h2>
+            <p class="text-black text-lg leading-relaxed mt-4">
+                A student at SMTI Vocational High School Yogyakarta, majoring in Mechatronics Engineering. Passionate about programming, automation, and creating innovative solutions through technology.
+            </p>
+        </div>
+
+       <div id="skills" class="mt-16 bg-white border -rotate-2 border-gray-800 mx-auto w-full p-4 shadow-spc">
+    <h2 class="text-2xl flex items-center">
+        <img class="h-8 w-8 mr-2" src="./img/skills1.png" alt="Person smile"> The skills and tools I use
+    </h2>
+    <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 mt-4">
+        <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+          
+            <span class="text-sm mt-2">Python</span>
+        </div>
+                <div class="flex flex-col items-center">
+           
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-plain.svg" />
+          
+            <span class="text-sm mt-2">Lua</span>
+        </div>
+                <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" />
+          
+            <span class="text-sm mt-2">Arduino</span>
+        </div>
+         <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuetify/vuetify-original.svg" />
+          
+            <span class="text-sm mt-2">Vuetify</span>
+        </div>
+         <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
+          
+            <span class="text-sm mt-2">VueJs</span>
+        </div>
+         <div class="flex flex-col items-center">
+           
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" />
+          
+            <span class="text-sm mt-2">Tensorflow</span>
+        </div>
+         <div class="flex flex-col items-center">
+            <i class="devicon-threejs-original text-4xl"></i>
+            <span class="text-sm mt-2">ThreeJs</span>
+        </div>
+         <div class="flex flex-col items-center">
+           
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+          
+            <span class="text-sm mt-2">Tailwind</span>
+        </div>
+         <div class="flex flex-col items-center">
+       
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" />
+          
+            <span class="text-sm mt-2">OpenCv</span>
+        </div>
+         <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" />
+          
+            <span class="text-sm mt-2">PyTorch</span>
+        </div>
+         <div class="flex flex-col items-center">
+         
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/qt/qt-original.svg" />
+          
+            <span class="text-sm mt-2">Qt</span>
+        </div>
+         <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" />
+          
+            <span class="text-sm mt-2">Kotlin</span>
+        </div>
+         <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+          
+            <span class="text-sm mt-2">Html</span>
+        </div>
+         
+         <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg" />
+          
+            <span class="text-sm mt-2">RaspberryPi</span>
+        </div>
+         
+         <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" />
+          
+            <span class="text-sm mt-2">Go</span>
+        </div>
+         <div class="flex flex-col items-center">
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/godot/godot-original.svg" />
+            <span class="text-sm mt-2">Godot</span>
+        </div>
+         <div class="flex flex-col items-center">
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" />
+            <span class="text-sm mt-2">Flask</span>
+        </div>
+         <div class="flex flex-col items-center">
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" />
+            <span class="text-sm mt-2">Firebase</span>
+        </div>
+         <div class="flex flex-col items-center">
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
+            <span class="text-sm mt-2">Django</span>
+        </div>
+         <div class="flex flex-col items-center">
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+            <span class="text-sm mt-2">CSS</span>
+        </div>
+         <div class="flex flex-col items-center">
+       <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+            <span class="text-sm mt-2">Bootstrap</span>
+        </div>
+        <div class="flex flex-col items-center">
+           
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+          
+            <span class="text-sm mt-2">JavaScript</span>
+        </div>
+        <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+          
+            <span class="text-sm mt-2">Java</span>
+        </div>
+        <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+          
+            <span class="text-sm mt-2">C++</span>
+        </div>
+        <div class="flex flex-col items-center">
+            <i class="devicon-github-plain text-4xl"></i>
+            <span class="text-sm mt-2">Github</span>
+        </div>
+        <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+          
+            <span class="text-sm mt-2">PHP</span>
+        </div>
+         <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" />
+          
+            <span class="text-sm mt-2">JSON</span>
+        </div>
+         <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+          
+            <span class="text-sm mt-2">NodeJs</span>
+        </div>
+         <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+          
+            <span class="text-sm mt-2">Express</span>
+        </div>
+        <div class="flex flex-col items-center">
+            
+            <img class="h-8 w-8" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/replit/replit-original.svg" />
+          
+            <span class="text-sm mt-2">Replit</span>
+        </div>
+    </div>
+</div>
+
+        <div id="projects"class="mt-16 rotate-2 bg-white border border-gray-800 w-full p-4 shadow-spc">
+            <h2 class="text-2xl flex items-center">    <img class="h-8 w-8 mr-2" src="./img/projects.png" alt="Person smile">
+                Some projects I have worked on   
+            </h2>
+            
+          <ul>
+              <li>
+                  <li>
+                  <div class="bg-snackbar p-2 border border-gray-800 mt-4 rounded-sm">
+                      <h1 class="text-center">Chemicfest #9 Website</h1>
+                      <p class="mt-4">A School concert registration website for the public.</p>
+                      <button id="v0" class="bg-white border border-gray-800 p-2 rounded-full w-full mt-4 shadow-spc">Visit Github</button>
+                  </div>
+              </li>
+                  <div class="bg-snackbar p-2 border border-gray-800 mt-4 rounded-sm">
+                      <h1 class="text-center">Gyroscope based realtime 3D cube rotation on website</h1>
+                      <p class="mt-4">A gyroscope sensor checking or calibration website that displays the output on the rotation of a 3D cube on the website.</p>
+                      <button id="v1" class="bg-white border border-gray-800 p-2 rounded-full w-full mt-4 shadow-spc">Visit Github</button>
+                  </div>
+              </li>
+               <li>
+                  <div class="bg-snackbar p-2 border border-gray-800 mt-4 rounded-sm">
+                      <h1 class="text-center">Backrooms themed android horror game </h1>
+                      <p class="mt-4">A simple backrooms themed horror game made specifically for android devices.</p>
+                      <button id="v2" class="bg-white border border-gray-800 p-2 rounded-full w-full mt-4 shadow-spc">Visit Itch.io</button>
+                  </div>
+              </li>
+               <li>
+                   <button id="v3" class="bg-snackbar border border-gray-800 p-2 rounded-full w-full mt-4 shadow-spc">See more on my github!</button>
+               </li>
+          </ul>
+      
+         </div>
+       
+       
+    </div>
+        <div id="bar" class="z-50 fixed bottom-4 left-1/2 -translate-x-1/2 bg-white px-6 py-3 border border-gray-800 shadow-spc rounded-full flex items-center gap-4">
+        <a href="#home"class="ph ph-house text-2xl"></a>
+        <a href="#skills"class="ph ph-lightning text-2xl"></a>
+        <a href="#projects"class="ph ph-briefcase text-2xl"></a>
+
+    </div>
+    
+    
+    <div id="n0" class="fixed backdrop-blur-md inset-0 bg-black bg-opacity-50 z-40"></div>
+
+
+
+<div id="n1" class="fixed  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-spc bg-snackbar p-4 border border-gray-800 z-50">
+    <h1 id="panduan"class="text-2xl">The elements below are access shortcuts.</h1>
+    <button id="selanjutnya" class="bg-white border border-gray-800 p-2 rounded-full w-full mt-4 shadow-spc">Next</button>
+    <div class="w-full mt-4 justify-center items-center flex">
+    <img class="h-32 w-32" src="./img/arrow.png" alt="arrow">
+    </div>
+</div>
+
+</main>
+ <div class=" bg-white border-t border-gray-800 w-full p-4 shadow-spc">
+            <h2 class="text-2xl flex items-center text-center justify-center">
+               Made by Guntur Developer 
+            </h2>
+            
+        </div>
+    <script>
+       document.addEventListener("DOMContentLoaded", function () {
+            const bar = document.getElementById("bar");
+            let lastScroll = window.scrollY;
+
+            window.addEventListener("scroll", function () {
+                let currentScroll = window.scrollY;
+                if (currentScroll > lastScroll) {
+                    bar.classList.add("opacity-0", "scale-90");
+                } else {
+                    bar.classList.remove("opacity-0", "scale-90");
+                }
+                lastScroll = currentScroll;
+            });
+        });
+        document.addEventListener("contextmenu", (event) => event.preventDefault());
+
+document.addEventListener("mousedown", (event) => {
+    if (event.button === 2) { // Tombol kanan mouse
+        event.preventDefault();
+    }
+});
+
+document.addEventListener("keydown", (event) => {
+    if (event.ctrlKey && (event.key === "u" || event.key === "U")) {
+        event.preventDefault();
+    }
+});
+    const v0 = document.getElementById('v0');
+    const v1 = document.getElementById('v1');
+    const v2 = document.getElementById('v2');
+    const v3 = document.getElementById('v3');
+    
+    const n0 = document.getElementById('n0');
+    const n1 = document.getElementById('n1');
+    var key = 0;
+    const panduan = document.getElementById('panduan');
+    const button = document.getElementById('selanjutnya'); 
+    
+    v0.addEventListener("click", function(){
+        window.location.href="https://github.com/SekarHayu/WebCF"
+    });
+    v1.addEventListener("click", function(){
+        window.location.href="https://github.com/GunturDeveloper/Orientation-Web-Check"
+    });
+    v2.addEventListener("click", function(){
+        window.location.href="https://gunturdev.itch.io/backroom"
+    });
+    v3.addEventListener("click", function(){
+        window.location.href="https://github.com/GunturDeveloper/"
+    });
+    
+    
+    
+    
+    button.addEventListener("click", function() {
+        key += 1;
+        if(key==1){
+            panduan.textContent = "He will disappear if you scroll down his website.";
+        }
+        if(key==2){
+            panduan.textContent = "And he will appear if you scroll up.";
+        }
+        if(key==3){
+            panduan.textContent = "Thank you for visiting my portfolio website.";
+            button.textContent = "Finish";
+           
+        }
+        if(key==4){
+             n0.classList.add('hidden');
+            n1.classList.add('hidden');
+        }
+    });
+    
+    </script>
+</body>
+</html>
