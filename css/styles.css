@@ -1,0 +1,46 @@
+::selection {
+  background-color: #baff55;
+  color: #000000; 
+}
+
+@font-face {
+            font-family: 'Default';
+            src: url('./fonts/fonts.ttf') format('truetype');
+        }
+
+body {
+    font-family: 'Default', sans-serif;
+}
+
+.bg-primary {
+    background: #F5F3EB;
+}
+
+.shadow-spc {
+     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.bg-snackbar {
+    background: #baff55;
+}
+
+.dot-grid {
+            background-image: radial-gradient(currentColor 1px, transparent 1px);
+            background-size: 16px 16px;
+            opacity: 1.0;
+        }
+        
+ @keyframes rotate-swing {
+      0%   { transform: rotate(0deg); }
+      25%  { transform: rotate(5deg); }
+      50%  { transform: rotate(-5deg); }
+      75%  { transform: rotate(1deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    .rotate-pivot {
+      transform-origin: top center;
+      animation: rotate-swing 3s ease-in-out infinite;
+      
+      }
+      
